@@ -1,0 +1,27 @@
+.breadcrumb
+    width: 100%
+    margin: 0 auto
+    text-align: center
+    list-style: none
+    display: flex
+    justify-content: center
+    padding: 8px 0
+.breadcrumb-item
+    position: relative
+    a
+        font-weight: 700
+        text-decoration: none
+        color: #333333
+        &:hover
+            color: $accent-color
+
+    &:before
+        content: '/'
+        position: absolute
+        right: -15px
+.breadcrumb-item + .breadcrumb-item
+    margin-left: 25px
+
+.active::before
+    content: ''
+

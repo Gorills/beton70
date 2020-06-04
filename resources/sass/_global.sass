@@ -1,0 +1,47 @@
+body
+    margin: 0
+    padding: 0
+    font-size: 16px
+    color: #474747
+    line-height: 1.6
+    font-family: 'Roboto', sans-serif
+*,
+*:before,
+*:after
+    box-sizing: border-box
+
+h1, h2, h3, h4, h5, h6, p
+    margin: 0
+
+button
+    cursor: pointer
+
+
+
+.container
+    width: 100%
+    max-width: 1140px
+    margin: 0 auto
+    padding: 0 15px
+
+.btn
+    display: inline-block
+    background: none
+    font-weight: 700
+    border-radius: 0
+    padding: 8px 45px
+    text-decoration: none
+    border: $border
+    transition: $transition
+    &__accent
+        color: $color-fonts
+        &:hover
+            background-color: $backgroung-light
+    &__dark
+        color: #fff
+        &:hover
+            background-color: $backgroung-overdark
+
+.accent-color
+    color: $accent-color
+    font-weight: 700

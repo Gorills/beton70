@@ -1,0 +1,102 @@
+.footer
+    border-top: 1px solid #54575f
+    width: 100%
+    margin: 0 auto
+    background-color: $backgroung-overdark
+    padding: 40px 0
+    color: #fff
+    font-weight: 700
+    /* .footer__inner */
+    &__inner
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        margin-bottom: 40px
+        @media only screen and (max-width : 768px)
+            flex-direction: column
+            justify-content: center
+            text-align: center
+            &:last-child
+                margin-bottom: 0
+    /* .footer__column */
+    &__column
+        display: block
+        @media only screen and (max-width : 768px)
+            margin: 0 auto 40px
+
+    /* .footer__phone */
+    &__phone
+        font-size: 24px
+        font-weight: 700
+        text-decoration: none
+        color: #fff
+        display: block
+        margin-bottom: 10px
+        transition: $transition
+        &:hover
+            color: $accent-color
+    /* .footer__mail */
+    &__mail
+        display: block
+        text-decoration: none
+        font-weight: 300
+        font-size: 14px
+        color: #fff
+        transition: $transition
+        &:hover
+            color: $accent-color
+    /* .footer__social */
+    &__social
+        padding: 15px 0
+    /* .footer__icon */
+    &__icon
+        padding: 10px
+        border: 1px solid rgba(189, 189, 189, 0.55)
+        border-radius: 50%
+        color: rgba(144, 144, 144, 0.55)
+        &:hover
+            color: $accent-color
+            border-color: $accent-color
+    &__icon + &__icon
+        margin-left: 10px
+
+    /* .footer__text */
+    &__text
+        font-size: 14px
+        font-weight: 300
+    /* .footer__razrab */
+    &__razrab
+        display: block
+        margin-top: 20px
+        color: #3b3b3b
+        text-decoration: none
+    /* .footer__title */
+    &__title
+
+        display: block
+        font-size: 17px
+        font-weight: 700
+        margin-bottom: 15px
+        text-decoration: none
+
+        text-transform: uppercase
+    /* footer__item */
+    &__item
+        display: block
+    /* .footer__link */
+    &__link
+        //text-transform: uppercase
+        display: inline-block
+        text-decoration: none
+        color: #fff
+        font-weight: 300
+        font-size: 14px
+        transition: $transition
+        &:hover
+            color: $accent-color
+            text-decoration: underline
+    &__item + &__item
+        margin-top: 10px
+    /* .footer__mt
+    &__mt
+        margin-top: 20px
