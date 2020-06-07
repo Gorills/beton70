@@ -1,15 +1,15 @@
 @extends('layouts.custom')
 
 
-@section('title', '')
-@section('description', '')
-@section('keywords', '')
-@section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
+@section('title', 'Тротуарная плитка в Томске с доставкой | Купить тротуарную плитку')
+@section('description', 'Магазин тротуарной плитки в Томске, изготовление тротуарной плитки под заказ')
+@section('keywords', 'тротуарная плитка Томск, заказать тротуарную плитку')
+@section('canonical', 'https://beton70.com/trotuarnaya-plitka')
+@section('og:title', 'Тротуарная плитка в Томске с доставкой | Купить тротуарную плитку')
+@section('og:description', 'Магазин тротуарной плитки в Томске, изготовление тротуарной плитки под заказ')
 @section('og:url', '')
-@section('twitter:description', '')
-@section('twitter:title', '')
+@section('twitter:description', 'Магазин тротуарной плитки в Томске, изготовление тротуарной плитки под заказ')
+@section('twitter:title', 'Тротуарная плитка в Томске с доставкой | Купить тротуарную плитку')
 
 @section('content')
     <div class="container">

@@ -1,15 +1,15 @@
 @extends('layouts.custom')
 
 
-@section('title', '')
-@section('description', '')
-@section('keywords', '')
-@section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
-@section('og:url', '')
-@section('twitter:description', '')
-@section('twitter:title', '')
+@section('title', 'Бетон купить в Томске с доставкой | Цены на бетон')
+@section('description', 'Заказать доставку бетона по Томску и области по низким ценам. Отличное качество бетона с ценами за куб. Тел. 500-200')
+@section('keywords', 'бетон купить, цены на бетон, заказать бетон, куб бетона заказать Томск')
+@section('canonical', 'https://beton70.com/beton')
+@section('og:title', 'Бетон купить в Томске с доставкой | Цены на бетон')
+@section('og:description', 'Заказать доставку бетона по Томску и области по низким ценам. Отличное качество бетона с ценами за куб. Тел. 500-200')
+@section('og:url', 'https://beton70.com/beton')
+@section('twitter:description', 'Заказать доставку бетона по Томску и области по низким ценам. Отличное качество бетона с ценами за куб. Тел. 500-200')
+@section('twitter:title', 'Бетон купить в Томске с доставкой | Цены на бетон')
 
 @section('content')
 <div class="container">
