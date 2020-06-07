@@ -1,15 +1,15 @@
 @extends('layouts.custom')
 
 
-@section('title', '')
-@section('description', '')
-@section('keywords', '')
-@section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
-@section('og:url', '')
-@section('twitter:description', '')
-@section('twitter:title', '')
+@section('title', 'Цементный раствор купить в Томске с доставкой | Цены на раствор')
+@section('description', 'Заказать доставку раствора по Томску и области по низким ценам. Отличное качество раствора с ценами за куб. Тел. 500-200')
+@section('keywords', 'цементный раствор, рствор купить, цены на раствор, заказать раствор, куб раствора заказать Томск')
+@section('canonical', 'https://beton70.com/rastvor')
+@section('og:title', 'Цементный раствор купить в Томске с доставкой | Цены на раствор')
+@section('og:description', 'Заказать доставку раствора по Томску и области по низким ценам. Отличное качество раствора с ценами за куб. Тел. 500-200')
+@section('og:url', 'https://beton70.com/rastvor')
+@section('twitter:description', 'Заказать доставку раствора по Томску и области по низким ценам. Отличное качество раствора с ценами за куб. Тел. 500-200')
+@section('twitter:title', 'Цементный раствор купить в Томске с доставкой | Цены на раствор')
 
 @section('content')
 

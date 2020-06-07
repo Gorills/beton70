@@ -1,15 +1,15 @@
 @extends('layouts.custom')
 
 
-@section('title', '')
-@section('description', '')
+@section('title', 'Информация о доставке | Руд Медиум')
+@section('description', 'Доставка строительных смесей по Томску и области от компании Руд Медиум')
 @section('keywords', '')
-@section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
+@section('canonical', 'https://beton70.com/dostavka')
+@section('og:title', 'Информация о доставке | Руд Медиум')
+@section('og:description', 'Доставка строительных смесей по Томску и области от компании Руд Медиум')
 @section('og:url', '')
-@section('twitter:description', '')
-@section('twitter:title', '')
+@section('twitter:description', 'Доставка строительных смесей по Томску и области от компании Руд Медиум')
+@section('twitter:title', 'Информация о доставке | Руд Медиум')
 
 @section('content')
     <div class="container">

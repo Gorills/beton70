@@ -1,15 +1,15 @@
 @extends('layouts.custom')
 
 
-@section('title', '')
-@section('description', '')
+@section('title', 'Строительные калькуляторы онлайн')
+@section('description', 'Рассчитать количество бетона, раствора онлайн')
 @section('keywords', '')
-@section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
+@section('canonical', 'https://beton70.com/calc')
+@section('og:title', 'Строительные калькуляторы онлайн')
+@section('og:description', 'Рассчитать количество бетона, раствора онлайн')
 @section('og:url', '')
-@section('twitter:description', '')
-@section('twitter:title', '')
+@section('twitter:description', 'Рассчитать количество бетона, раствора онлайн')
+@section('twitter:title', 'Строительные калькуляторы онлайн')
 
 @section('content')
 

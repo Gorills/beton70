@@ -1,15 +1,15 @@
 @extends('layouts.custom')
 
-@section('title', '')
-@section('description', '')
-@section('keywords', '')
-@section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
-@section('og:url', '')
+@section('title', 'Бетонный завод Руд Медиум Томск | Бетон, раствор')
+@section('description', 'Бетон, раствор на Шевченко 49б в Томске. Бетонный завод ООО "Руд Медиум"')
+@section('keywords', 'руд медиум, бетонный завод, производство строительных смесей')
+@section('canonical', 'https://beton70.com/')
+@section('og:title', 'Бетонный завод Руд Медиум Томск | Бетон, раствор')
+@section('og:description', 'Бетон, раствор на Шевченко 49б в Томске. Бетонный завод ООО "Руд Медиум"')
+@section('og:url', 'https://beton70.com/')
 
-@section('twitter:description', '')
-@section('twitter:title', '')
+@section('twitter:description', 'Бетон, раствор на Шевченко 49б в Томске. Бетонный завод ООО "Руд Медиум"')
+@section('twitter:title', 'Бетонный завод Руд Медиум Томск | Бетон, раствор')
 
 @section('content')
 

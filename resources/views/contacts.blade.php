@@ -1,15 +1,15 @@
 @extends('layouts.custom')
 
 
-@section('title', '')
-@section('description', '')
-@section('keywords', '')
-@section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
-@section('og:url', '')
-@section('twitter:description', '')
-@section('twitter:title', '')
+@section('title', 'Контакты компании "руд Медиум" | Как с нами связаться')
+@section('description', 'Как позвонить или адрес компании ООО "Руд Медиум" в Томске')
+@section('keywords', 'контакты')
+@section('canonical', 'https://beton70.com/contacts')
+@section('og:title', 'Контакты компании "руд Медиум" | Как с нами связаться')
+@section('og:description', 'Как позвонить или адрес компании ООО "Руд Медиум" в Томске')
+@section('og:url', 'https://beton70.com/contacts')
+@section('twitter:description', 'Как позвонить или адрес компании ООО "Руд Медиум" в Томске')
+@section('twitter:title', 'Контакты компании "руд Медиум" | Как с нами связаться')
 
 @section('content')
     <div class="container">

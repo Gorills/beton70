@@ -20,12 +20,25 @@
     <meta property="og:url" content="@yield('og:url')" />
 
     <meta name="theme-color" content="#ff6801">
-    <meta property="og:site_name" content="" />
+    <meta property="og:site_name" content="beton70.com" />
     <meta property="og:image" content="" />
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:description" content="@yield('twitter:description')" />
     <meta name="twitter:title" content="@yield('twitter:title')" />
+
+
+    <!-- Stat --> <!-- Yandex.Metrika counter 54116212 -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); window.mainMetrikaId = 54116212;
+        ym(window.mainMetrikaId , "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true,ecommerce:"dataLayer" });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/54116212" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+
 
 </head>
 <body>
@@ -39,7 +52,7 @@
     <div class="container">
         <div class="header__inner">
 
-            
+
             <div class="header__top">
 
                 <div class="header__adress">
