@@ -43,7 +43,7 @@
 
                 <div class="header__adress">
                     <p class="header__text">Наши адреса</p>
-                    <p class="header__text">Бетон: г.Томск, ул. Шевченко 49Б ст6</p>
+                    <p class="header__text">Бетон: г.Томск, ул. Шевченко 49 Б ст6</p>
                     <p class="header__text">Плитка: г.Томск, ул. Энергетическая 3а</p>
                 </div>
 
