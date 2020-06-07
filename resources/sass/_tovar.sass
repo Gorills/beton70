@@ -18,12 +18,26 @@
         display: grid
         grid-template-columns: repeat(7, 1fr)
         grid-gap: 20px
+        @media only screen and (max-width : 992px)
+            grid-template-columns: repeat(5, 1fr)
+            justify-content: center
+        @media only screen and (max-width : 664px)
+            grid-template-columns: repeat(3, 1fr)
+        @media only screen and (max-width : 480px)
+            grid-template-columns: repeat(2, 1fr)
+
+        @media only screen and (max-width : 380px)
+            grid-template-columns: 1fr
+
+
     // .tovar__item
 
     &__item
         text-align: center
         text-decoration: none
         color: $color-fonts
+        @media only screen and (max-width : 380px)
+
     // .tovar__img
 
     &__img

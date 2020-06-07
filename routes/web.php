@@ -12,11 +12,14 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('/beton/{slug}', 'BetonController@beton')->name('beton');
 
 Route::group(['prefix'=>'admin', 'namespace'=>'Admin', 'middleware' => ['auth']], function (){
     Route::get('/', 'DashboardController@dashboard')->name('admin.dashboard');
     Route::resource('/category', 'CategoryController', ['as'=>'admin']);
+
+    Route::resource('/beton', 'BetonController', ['as'=>'admin']);
+
     Route::resource('/article', 'ArticleController', ['as'=>'admin']);
 
 });

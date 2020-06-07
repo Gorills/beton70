@@ -7,6 +7,7 @@
 @section('og:title', '')
 @section('og:description', '')
 @section('og:url', '')
+
 @section('twitter:description', '')
 @section('twitter:title', '')
 
@@ -23,7 +24,7 @@
                     <p class="start__subtitle">Накопительная система <span class="accent-color">скидок</span></p>
                     <p class="start__text">Регистрация в партнерской программе позволяет накапливать скидки от объема и со
                         временем, даже при небольших объемах заказов, достигнуть максимальной скидки.</p>
-                    <a href="#" class="btn btn__dark start__hidden">Подробнее о программе</a>
+                    <a href="#hidden" class="btn btn__dark start__hidden">Подробнее о программе</a>
                 </div>
 
                 <form action="" class="start__form">
@@ -43,7 +44,7 @@
     </div>
 
 
-    <div class="hidden">
+    <div class="hidden" id="hidden">
         <div class="container">
             <div class="hidden__inner">
                 <p class="hidden__title">Почему постоянное сотрудничество с компанией "Руд Медиум" выгодно?</p>

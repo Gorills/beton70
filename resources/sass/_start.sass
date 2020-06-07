@@ -4,6 +4,8 @@
     padding: 30px 0
     background-color: $backgroung-dark
     color: #ffffff
+
+
     // .start__inner
 
     &__inner
@@ -12,12 +14,17 @@
         display: flex
         justify-content: space-between
         align-items: center
+        @media only screen and (max-width : 992px)
+            flex-direction: column
+            justify-content: center
     // .start__text-block
 
     &__text-block
         width: 100%
         max-width: 560px
         text-align: center
+        @media only screen and (max-width : 992px)
+            margin-bottom: 20px
     // .start__title
 
     &__title
@@ -26,11 +33,15 @@
         font-weight: 400
 
         line-height: 1.8
+        @media only screen and (max-width : 480px)
+            font-size: 30px
     // .start__subtitle
 
     &__subtitle
         font-size: 35px
         margin-bottom: 15px
+        @media only screen and (max-width : 480px)
+            font-size: 25px
     // .start__text
 
     &__text

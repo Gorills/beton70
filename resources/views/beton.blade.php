@@ -37,37 +37,37 @@
                     </a>
                     <a href="#" class="tovar__item">
                         <img src="{{ asset('images/beton/2.jpg') }}" alt="" class="tovar__img">
-                        <p class="tovar__text">Товарный бетон <b>М-150</b> (B 12.5) до <span class="accent-color">2850</span> р/куб.м</p>
+                        <p class="tovar__text">Товарный бетон <b>М-150</b> (B 12.5) от <span class="accent-color">2850</span> р/куб.м</p>
 
                     </a>
                     <a href="#" class="tovar__item">
                         <img src="{{ asset('images/beton/3.jpg') }}" alt="" class="tovar__img">
-                        <p class="tovar__text">Товарный бетон <b>М-200</b> (B 15) до <span class="accent-color">2850</span> р/куб.м</p>
+                        <p class="tovar__text">Товарный бетон <b>М-200</b> (B 15) от <span class="accent-color">2850</span> р/куб.м</p>
 
                     </a>
                     <a href="#" class="tovar__item">
                         <img src="{{ asset('images/beton/4.jpg') }}" alt="" class="tovar__img">
-                        <p class="tovar__text">Товарный бетон <b>М-250</b> (B 20) до <span class="accent-color">3250</span> р/куб.м</p>
+                        <p class="tovar__text">Товарный бетон <b>М-250</b> (B 20) от <span class="accent-color">3250</span> р/куб.м</p>
 
                     </a>
                     <a href="#" class="tovar__item">
                         <img src="{{ asset('images/beton/5.jpg') }}" alt="" class="tovar__img">
-                        <p class="tovar__text">Товарный бетон <b>М-300</b> (B 22.5) до <span class="accent-color">3450</span> р/куб.м</p>
+                        <p class="tovar__text">Товарный бетон <b>М-300</b> (B 22.5) от <span class="accent-color">3450</span> р/куб.м</p>
 
                     </a>
                     <a href="#" class="tovar__item">
                         <img src="{{ asset('images/beton/6.jpg') }}" alt="" class="tovar__img">
-                        <p class="tovar__text">Товарный бетон <b>М-350</b> (B 25) до <span class="accent-color">3850</span> р/куб.м</p>
+                        <p class="tovar__text">Товарный бетон <b>М-350</b> (B 25) от <span class="accent-color">3850</span> р/куб.м</p>
 
                     </a>
                     <a href="#" class="tovar__item">
                         <img src="{{ asset('images/beton/7.jpg') }}" alt="" class="tovar__img">
-                        <p class="tovar__text">Товарный бетон <b>М-400</b> (B 30) до <span class="accent-color">4150</span> р/куб.м</p>
+                        <p class="tovar__text">Товарный бетон <b>М-400</b> (B 30) от <span class="accent-color">4150</span> р/куб.м</p>
 
                     </a>
                 </div>
                 <div class="tovar__btn-wrapper">
-                    <a href="#" class="btn btn__accent">Заказать</a>
+                    <a href="#" class="btn btn__accent show_popup">Заказать</a>
                 </div>
 
             </div>

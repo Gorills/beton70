@@ -1,0 +1,63 @@
+.phone-btn
+    position: fixed
+    z-index: 98
+    right: 15px
+    bottom: 15px
+    display: none
+    @media only screen and (max-width : 768px)
+        display: block
+    &__link
+        background-color: $accent-color
+        border-radius: 50%
+        height: 70px
+        width: 70px
+        position: relative
+        color: #000000
+        text-decoration: none
+
+        z-index: 56
+        transition: $transition
+        outline: none
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+        display: flex
+        justify-content: center
+        align-items: center
+
+        &--active
+            display: block
+            transform: rotate(-90deg)
+            background-color: $backgroung-dark
+            color: $accent-color
+            &::before, &::after
+                content: none!important
+        &::before, &::after
+            content: ''
+            position: absolute
+            border: 1px solid $accent-color
+            left: -20px
+            right: -20px
+            top: -20px
+            bottom: -20px
+            border-radius: 50%
+            animation: pulse 1.8s linear infinite
+            opacity: 0
+        &::after
+            animation-delay: .5s
+        @keyframes pulse
+            0%
+                transform: scale(0.5)
+                opacity: 0
+            50%
+                opacity: 1
+            100%
+                transform: scale(1.2)
+                opacity: 0
+
+
+
+    &__icon
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        font-size: 35px

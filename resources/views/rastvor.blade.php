@@ -68,7 +68,7 @@
                     </a>
                 </div>
                 <div class="tovar__btn-wrapper">
-                    <a href="#" class="btn btn__accent">Заказать</a>
+                    <a href="#" class="btn btn__accent show_popup">Заказать</a>
                 </div>
 
             </div>

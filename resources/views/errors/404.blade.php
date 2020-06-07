@@ -17,18 +17,23 @@
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="{{ url('/') }}">Главная</a></li>
 
-                <li class="breadcrumb-item active" aria-current="page">Тротуарная плитка</li>
+                <li class="breadcrumb-item active" aria-current="page">404 ошибка</li>
             </ol>
         </nav>
     </div>
 
-    <div class="razrab">
+
+    <div class="error">
         <div class="container">
-            <div class="razrab__inner">
-                <h1 class="razrab__title">Данная страница находится в разработке. Зайдите позже!</h1>
+            <div class="error__inner">
+                <h1 class="error__title">Такая страница не найдена! Ошибка 404!</h1>
+
+
             </div>
         </div>
     </div>
+
+
 
 
 
