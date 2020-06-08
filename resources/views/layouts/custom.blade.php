@@ -255,16 +255,16 @@
             <div class="footer__column">
                 <p class="footer__title">Услуги</p>
                 <div class="footer__item">
-                    <a href="{{ URL('/razrabotka-sajtov') }}" class="footer__link">Заказать бетон</a>
+                    <a href="{{ URL('/beton') }}" class="footer__link">Заказать бетон</a>
                 </div>
                 <div class="footer__item">
-                    <a href="{{ URL('/seo') }}" class="footer__link">Заказать раствор</a>
+                    <a href="{{ URL('/rastvor') }}" class="footer__link">Заказать раствор</a>
                 </div>
                 {{--                <div class="footer__item">--}}
                 {{--                    <a href="{{ URL('/smm') }}" class="footer__link">СММ</a>--}}
                 {{--                </div>--}}
                 <div class="footer__item">
-                    <a href="{{ URL('/kontekstnaya-reklama') }}" class="footer__link">Тротуарная плитка</a>
+                    <a href="{{ URL('/trotuarnaya-plitka') }}" class="footer__link">Тротуарная плитка</a>
                 </div>
 
 

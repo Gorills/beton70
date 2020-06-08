@@ -32,37 +32,37 @@
                 <div class="tovar__grid">
 
                     <a href="#" class="tovar__item">
-                        <img src="{{ asset('images/rastvor/1.jpg') }}" alt="" class="tovar__img">
+                        <img src="{{ asset('images/rastvor/1.jpg') }}" alt="Раствор марки м25" class="tovar__img">
                         <p class="tovar__text">Раствор марки <b>М-25</b><br> <span class="accent-color">2550</span> р/куб.м</p>
 
                     </a>
                     <a href="#" class="tovar__item">
-                        <img src="{{ asset('images/rastvor/2.jpg') }}" alt="" class="tovar__img">
+                        <img src="{{ asset('images/rastvor/2.jpg') }}" alt="Раствор марки м50" class="tovar__img">
                         <p class="tovar__text">Раствор марки <b>М-50</b><br> <span class="accent-color">2850</span> р/куб.м</p>
 
                     </a>
                     <a href="#" class="tovar__item">
-                        <img src="{{ asset('images/rastvor/3.jpg') }}" alt="" class="tovar__img">
+                        <img src="{{ asset('images/rastvor/3.jpg') }}" alt="Раствор марки м75" class="tovar__img">
                         <p class="tovar__text">Раствор марки <b>М-75</b><br> <span class="accent-color">2850</span> р/куб.м</p>
 
                     </a>
                     <a href="#" class="tovar__item">
-                        <img src="{{ asset('images/rastvor/4.jpg') }}" alt="" class="tovar__img">
+                        <img src="{{ asset('images/rastvor/4.jpg') }}" alt="Раствор марки м100" class="tovar__img">
                         <p class="tovar__text">Раствор марки <b>М-100</b><br> <span class="accent-color">3250</span> р/куб.м</p>
 
                     </a>
                     <a href="#" class="tovar__item">
-                        <img src="{{ asset('images/rastvor/5.jpg') }}" alt="" class="tovar__img">
+                        <img src="{{ asset('images/rastvor/5.jpg') }}" alt="Раствор марки м125" class="tovar__img">
                         <p class="tovar__text">Раствор марки <b>М-125</b><br> <span class="accent-color">3450</span> р/куб.м</p>
 
                     </a>
                     <a href="#" class="tovar__item">
-                        <img src="{{ asset('images/rastvor/6.jpg') }}" alt="" class="tovar__img">
+                        <img src="{{ asset('images/rastvor/6.jpg') }}" alt="Раствор марки м150" class="tovar__img">
                         <p class="tovar__text">Раствор марки <b>М-150</b><br> <span class="accent-color">3850</span> р/куб.м</p>
 
                     </a>
                     <a href="#" class="tovar__item">
-                        <img src="{{ asset('images/rastvor/7.jpg') }}" alt="" class="tovar__img">
+                        <img src="{{ asset('images/rastvor/7.jpg') }}" alt="Раствор марки м200" class="tovar__img">
                         <p class="tovar__text">Раствор марки <b>М-200</b><br> <span class="accent-color">4150</span> р/куб.м</p>
 
                     </a>
