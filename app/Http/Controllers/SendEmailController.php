@@ -2,10 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\SendMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
-use App\Mail\SendMail;
-
 
 class SendEmailController extends Controller
 {
@@ -15,19 +14,24 @@ class SendEmailController extends Controller
 
     function send(Request $request) {
 
-        $data = array(
-            'name' => $request->name,
-            'tel' => $request->tel,
-            'mark' => $request->mark,
-            'message' => $request->message
 
+//        $this->validate($request, [
+//            'name'      =>  'required',
+//            'tel'       =>  'required|regex:/(01)[0-9]{9}/',
+//            'message'   =>  'required'
+//        ]);
+
+        $data = array(
+
+            'name'      => $request->name,
+            'tel'       => $request->tel,
+            'message'   => $request->message,
+            'mark'      => $request->mark
         );
 
-        Mail::to('gorivanickiy@gmail.com')->send(new SendMail($data));
+        Mail::to('gorivanicliy@gmail.com')->send(new SendMail($data));
         return view('thank-you');
 
 
     }
-
-
 }

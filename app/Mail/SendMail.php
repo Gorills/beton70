@@ -13,7 +13,6 @@ class SendMail extends Mailable
 
     public $data;
 
-
     /**
      * Create a new message instance.
      *
@@ -31,6 +30,7 @@ class SendMail extends Mailable
      */
     public function build()
     {
+//        return $this->view('view.name');
         return $this->from('zakaz@beton70.com')->subject('Заявка с сайта')->view('mail')->with('data', $this->data);
     }
 }
