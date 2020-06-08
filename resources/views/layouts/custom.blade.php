@@ -331,7 +331,7 @@
     "name": "ООО Руд Медиум",
     "alternateName": "Руд Медиум",
     "description": "Бетон, раствор, тортуарная плитка",
-    "url": "https://jennyshowroom.ru/",
+    "url": "https://beton70.com/",
     "email": "beton70com@yandex.ru",
     "legalName": "Руд Медиум",
     "logo": "https://beton70.com/images/logo.png",
