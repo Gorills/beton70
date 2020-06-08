@@ -27,9 +27,22 @@
     <meta name="twitter:description" content="@yield('twitter:description')" />
     <meta name="twitter:title" content="@yield('twitter:title')" />
 
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-   
+        ym(54116212, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/54116212" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
 
+    <meta name="yandex-verification" content="70333199a2ae9551" />
 
 
 </head>
@@ -301,7 +314,7 @@
 {{--<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>--}}
 
 {{--<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>--}}
-<style src="{{ URL::asset('js/app.js') }}"></style>
+{{--<style src="{{ URL::asset('js/app.js') }}"></style>--}}
 <script src="{{ URL::asset('js/site.js') }} "></script>
 
 </body>
