@@ -12,7 +12,7 @@
 @section('twitter:title', 'Тротуарная плитка в Томске с доставкой | Купить тротуарную плитку')
 
 @section('content')
-    <<ul class="breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+    <ul class="breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList">
         <li class="breadcrumb-item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
             <a href="{{ URL('/') }}" itemprop="item">
                 <span itemprop="name">Главная</span>
