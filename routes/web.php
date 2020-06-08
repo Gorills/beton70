@@ -52,6 +52,10 @@ Route::get('/contacts', function () {
 });
 
 
+Route::get('/sendemail', 'SendEmailController@index');
+
+Route::post('/sendemail/send', 'SendEmailController@send');
+
 
 Auth::routes();
 

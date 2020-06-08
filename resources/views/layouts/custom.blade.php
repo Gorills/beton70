@@ -212,58 +212,44 @@
         <p class="popup__title">Оставить заявку</p>
 
 
-        @if($_SERVER['REQUEST_URI'] == $bet)
-        <form class="popup__form" action= "#" method= "post">
-            <input class="popup__input" type= "text" name= "name" placeholder="Имя">
-            <input class="popup__input" type= "tel" name= "tel" placeholder="Телефон">
+
+        <form class="popup__form" action= "{{ url('sendemail/send') }}" method= "post">
+            {{ csrf_field() }}
+
+            <input class="popup__input" type= "text" name= "name" placeholder="Имя" required>
+            <input class="popup__input" type= "tel" name= "tel" placeholder="Телефон" required>
+            @if($_SERVER['REQUEST_URI'] == $bet)
             <select name="mark" id="" class="popup__input">
                 <option value="-">Выбрать марку бетона</option>
-                <option value="M100">M100</option>
-                <option value="М150">М150</option>
-                <option value="М200">М200</option>
-                <option value="M250">M250</option>
-                <option value="M300">M300</option>
-                <option value="M350">M350</option>
-                <option value="M400">M400</option>
+                <option value="бетон M100">M100</option>
+                <option value="бетон М150">М150</option>
+                <option value="бетон М200">М200</option>
+                <option value="бетон M250">M250</option>
+                <option value="бетон M300">M300</option>
+                <option value="бетон M350">M350</option>
+                <option value="бетон M400">M400</option>
             </select>
+            @elseif($_SERVER['REQUEST_URI'] == $rast)
+                <select name="mark" id="" class="popup__input">
+                <option value="-">Выбрать марку раствора</option>
+                <option value="раствор M25">M25</option>
+                <option value="раствор M50">M50</option>
+                <option value="раствор М75">М75</option>
+                <option value="раствор M100">M100</option>
+                <option value="раствор M125">M125</option>
+                <option value="раствор M150">M150</option>
+                <option value="раствор M200">M200</option>
+                </select>
+            @else
+
+
+
+            @endif
             <textarea class="popup__input" rows= "10" cols= "45" name= "message" placeholder="Сообщение"></textarea>
 
             <button class="popup__btn btn btn__accent" type= "submit">Отправить</button>
 
         </form>
-        @elseif($_SERVER['REQUEST_URI'] == $rast)
-            <form class="popup__form" action= "#" method= "post">
-                <input class="popup__input" type= "text" name= "name" placeholder="Имя">
-                <input class="popup__input" type= "tel" name= "tel" placeholder="Телефон">
-                <select name="mark" id="" class="popup__input">
-                    <option value="-">Выбрать марку раствора</option>
-                    <option value="M25">M25</option>
-                    <option value="M50">M50</option>
-                    <option value="М75">М75</option>
-                    <option value="M100">M100</option>
-                    <option value="M125">M125</option>
-                    <option value="M150">M150</option>
-                    <option value="M200">M200</option>
-                </select>
-                <textarea class="popup__input" rows= "10" cols= "45" name= "message" placeholder="Сообщение"></textarea>
-
-                <button class="popup__btn btn btn__accent" type= "submit">Отправить</button>
-
-            </form>
-        @else
-            <form class="popup__form" action= "#" method= "post">
-                <input class="popup__input" type= "text" name= "name" placeholder="Имя">
-                <input class="popup__input" type= "tel" name= "tel" placeholder="Телефон">
-                <textarea class="popup__input" rows= "10" cols= "45" name= "message" placeholder="Сообщение"></textarea>
-
-                <button class="popup__btn btn btn__accent" type= "submit">Отправить</button>
-
-            </form>
-
-
-        @endif
-
-
     </div>
 
 </div>
