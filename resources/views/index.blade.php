@@ -31,13 +31,13 @@
                     {{ csrf_field() }}
                     <img class="start__img" src="{{ asset('images/hands.png') }}" alt="">
                     <label for="" class="start__label">ФИО</label>
-                    <input name="name" type="text" class="start__input" placeholder="Иванов Иван Иванович">
+                    <input name="name" type="text" class="start__input" placeholder="Иванов Иван Иванович" required>
                     <label for="" class="start__label">Телефон</label>
-                    <input name="tel" type="tel" class="start__input" placeholder="+7 999 999 99 99">
+                    <input name="tel" type="tel" class="start__input" placeholder="+7 999 999 99 99" required>
                     <label for="" class="start__label">Название компании</label>
                     <input name="company" type="text" class="start__input" placeholder="Не обязательно">
                     <label for="" class="start__label">Ваш E-mail</label>
-                    <input name="email" type="email" class="start__input" placeholder="mail@example.com">
+                    <input name="email" type="email" class="start__input" placeholder="mail@example.com" required>
                     <button type="submit" class="start__btn">Регистрация</button>
                 </form>
             </div>
