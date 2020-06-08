@@ -10,7 +10,7 @@ use App\Mail\SendMail;
 class SendEmailController extends Controller
 {
     function index() {
-        return view('send_email');
+        return view('index');
     }
 
     function send(Request $request) {
