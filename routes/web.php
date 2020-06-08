@@ -43,6 +43,21 @@ Route::get('/calc', function () {
     return view('calc');
 });
 
+Route::get('/calc/rastchet-lentochnogo-fundamenta', function () {
+    return view('rastchet-lentochnogo-fundamenta');
+});
+
+Route::get('/calc/raschet-fundamenta-plity', function () {
+    return view('raschet-fundamenta-plity');
+});
+
+Route::get('/calc/raschet-stolbchatogo-fundamenta', function () {
+    return view('raschet-stolbchatogo-fundamenta');
+});
+Route::get('/calc/glubina-promerzaniya-grunta', function () {
+    return view('glubina-promerzaniya-grunta');
+});
+
 Route::get('/dostavka', function () {
     return view('dostavka');
 });

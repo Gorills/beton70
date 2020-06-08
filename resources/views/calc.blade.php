@@ -28,10 +28,45 @@
         </li>
     </ul>
 
-    <div class="razrab">
+    <div class="calc">
         <div class="container">
-            <div class="razrab__inner">
-                <h1 class="razrab__title">Данная страница находится в разработке. Зайдите позже!</h1>
+            <div class="calc__inner">
+                <h1 class="calc__title">Строительные онлайн-калькуляторы</h1>
+
+
+                <div class="calc__wrap">
+
+                    <a href="{{ url('/calc/rastchet-lentochnogo-fundamenta') }}" class="calc__item">
+                        <img src="{{ asset('/images/calc/1.jpg') }}" alt="" class="calc__img">
+
+                        <h3 class="calc__item-title">Растчет ленточного фундамента</h3>
+
+                    </a>
+
+                    <a href="{{ url('/calc/raschet-fundamenta-plity') }}" class="calc__item">
+                        <img src="{{ asset('/images/calc/2.jpg') }}" alt="" class="calc__img">
+
+                        <h3 class="calc__item-title">Расчет фундамента плиты</h3>
+
+                    </a>
+
+                    <a href="{{ url('/calc/raschet-stolbchatogo-fundamenta') }}" class="calc__item">
+                        <img src="{{ asset('/images/calc/3.jpg') }}" alt="" class="calc__img">
+
+                        <h3 class="calc__item-title">Расчет столбчатого фундамента</h3>
+
+                    </a>
+
+                    <a href="{{ url('/calc/glubina-promerzaniya-grunta') }}" class="calc__item">
+                        <img src="{{ asset('/images/calc/4.jpg') }}" alt="" class="calc__img">
+
+                        <h3 class="calc__item-title">Глубина промерзания грунта</h3>
+
+                    </a>
+
+
+                </div>
+
             </div>
         </div>
     </div>
