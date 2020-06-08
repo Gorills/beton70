@@ -183,9 +183,9 @@ module.exports = function xhrAdapter(config) {
       request = null;
     };
 
-    // Handle low level network error
+    // Handle low level network errors
     request.onerror = function handleError() {
-      // Real error are hidden from us by the browser
+      // Real errors are hidden from us by the browser
       // onerror should only fire if it's a network error
       reject(createError('Network Error', config, null, request));
 
@@ -7512,7 +7512,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 	documentIsHTML = !isXML( document );
 
 	// Support: IE 9 - 11+, Edge 12 - 18+
-	// Accessing iframe documents after unload throws "permission denied" error (jQuery #13936)
+	// Accessing iframe documents after unload throws "permission denied" errors (jQuery #13936)
 	// Support: IE 11+, Edge 17 - 18+
 	// IE/Edge sometimes throw a "Permission denied" error when strict-comparing
 	// two documents; shallow comparisons work.
@@ -10226,7 +10226,7 @@ jQuery.extend( {
 							// Support: Promises/A+ section 2.3.3.3.1
 							// https://promisesaplus.com/#point-57
 							// Re-resolve promises immediately to dodge false rejection from
-							// subsequent error
+							// subsequent errors
 							if ( depth ) {
 								process();
 							} else {
@@ -11078,7 +11078,7 @@ var documentElement = document.documentElement;
 	// Check attachment across shadow DOM boundaries when possible (gh-3504)
 	// Support: iOS 10.0-10.2 only
 	// Early iOS 10 versions support `attachShadow` but not `getRootNode`,
-	// leading to error. We need to check for `getRootNode`.
+	// leading to errors. We need to check for `getRootNode`.
 	if ( documentElement.getRootNode ) {
 		isAttached = function( elem ) {
 			return jQuery.contains( elem.ownerDocument, elem ) ||
@@ -15623,7 +15623,7 @@ function ajaxConvert( s, response, jqXHR, isSuccess ) {
 				// Apply converter (if not an equivalence)
 				if ( conv !== true ) {
 
-					// Unless error are allowed to bubble, catch and return them
+					// Unless errors are allowed to bubble, catch and return them
 					if ( conv && s.throws ) {
 						response = conv( response );
 					} else {
@@ -16403,7 +16403,7 @@ jQuery.ajaxTransport( function( options ) {
 
 								// Support: IE <=9 only
 								// On a manual native abort, IE9 throws
-								// error on any property access that is not readyState
+								// errors on any property access that is not readyState
 								if ( typeof xhr.status !== "number" ) {
 									complete( 0, "error" );
 								} else {
@@ -16759,7 +16759,7 @@ jQuery.fn.load = function( url, params, callback ) {
 			self.html( selector ?
 
 				// If a selector was specified, locate the right elements in a dummy div
-				// Exclude scripts to avoid IE 'Permission Denied' error
+				// Exclude scripts to avoid IE 'Permission Denied' errors
 				jQuery( "<div>" ).append( jQuery.parseHTML( responseText ) ).find( selector ) :
 
 				// Otherwise use the full result
@@ -29146,7 +29146,7 @@ return jQuery;
      */
     function isNaN(value) {
       // An `NaN` primitive is the only value that is not equal to itself.
-      // Perform the `toStringTag` check first to avoid error with some
+      // Perform the `toStringTag` check first to avoid errors with some
       // ActiveX objects in IE.
       return isNumber(value) && value != +value;
     }
@@ -32495,7 +32495,7 @@ return jQuery;
      * @returns {*} Returns the `func` result or error object.
      * @example
      *
-     * // Avoid throwing error for invalid selectors.
+     * // Avoid throwing errors for invalid selectors.
      * var elements = _.attempt(function(selector) {
      *   return document.querySelectorAll(selector);
      * }, '>_>');
@@ -34341,7 +34341,7 @@ return jQuery;
 
   // Some AMD build optimizers, like r.js, check for condition patterns like:
   if (true) {
-    // Expose Lodash on the global object to prevent error when Lodash is
+    // Expose Lodash on the global object to prevent errors when Lodash is
     // loaded by a script tag in the presence of an AMD loader.
     // See http://requirejs.org/docs/errors.html#mismatch for more details.
     // Use `_.noConflict` to remove Lodash from the global object.
@@ -34625,7 +34625,7 @@ function getRoot(node) {
  * @returns {Element} common offset parent
  */
 function findCommonOffsetParent(element1, element2) {
-  // This check is needed to avoid error in case one of the elements isn't defined for any reason
+  // This check is needed to avoid errors in case one of the elements isn't defined for any reason
   if (!element1 || !element1.nodeType || !element2 || !element2.nodeType) {
     return document.documentElement;
   }
@@ -34969,7 +34969,7 @@ function isFixed(element) {
  */
 
 function getFixedPositionOffsetParent(element) {
-  // This check is needed to avoid error in case one of the elements isn't defined for any reason
+  // This check is needed to avoid errors in case one of the elements isn't defined for any reason
   if (!element || !element.parentElement || isIE()) {
     return document.documentElement;
   }
@@ -38033,7 +38033,7 @@ var config = ({
   performance: false,
 
   /**
-   * Error handler for watcher error
+   * Error handler for watcher errors
    */
   errorHandler: null,
 
@@ -38449,7 +38449,7 @@ function createTextVNode (val) {
 
 // optimized shallow clone
 // used for static nodes and slot nodes because they may be reused across
-// multiple renders, cloning them avoids error when DOM manipulations rely
+// multiple renders, cloning them avoids errors when DOM manipulations rely
 // on their elm reference.
 function cloneVNode (vnode) {
   var cloned = new VNode(
@@ -43535,7 +43535,7 @@ function createPatchFunction (backend) {
     if (isDef(vnode.elm) && isDef(ownerArray)) {
       // This vnode was used in a previous render!
       // now it's used as a new node, overwriting its elm would cause
-      // potential patch error down the road when it's used as an insertion
+      // potential patch errors down the road when it's used as an insertion
       // reference node. Instead, we clone the node on-demand before creating
       // associated DOM element for it.
       vnode = ownerArray[index] = cloneVNode(vnode);
@@ -45238,7 +45238,7 @@ function updateDOMProps (oldVnode, vnode) {
   for (key in props) {
     cur = props[key];
     // ignore children if the node has textContent or innerHTML,
-    // as these will throw away existing DOM nodes and cause removal error
+    // as these will throw away existing DOM nodes and cause removal errors
     // on subsequent patches (#3360)
     if (key === 'textContent' || key === 'innerHTML') {
       if (vnode.children) { vnode.children.length = 0; }
@@ -49319,7 +49319,7 @@ function createCompileToFunctionFn (compile) {
     // compile
     var compiled = compile(template, options);
 
-    // check compilation error/tips
+    // check compilation errors/tips
     {
       if (compiled.errors && compiled.errors.length) {
         if (options.outputSourceRange) {
@@ -49355,7 +49355,7 @@ function createCompileToFunctionFn (compile) {
       return createFunction(code, fnGenErrors)
     });
 
-    // check function generation error.
+    // check function generation errors.
     // this should only happen if there is a bug in the compiler itself.
     // mostly for codegen development use
     /* istanbul ignore if */
@@ -49779,7 +49779,7 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
   null,
   null,
   null
-
+  
 )
 
 /* hot reload */
@@ -49799,7 +49799,7 @@ component.options.__file = "resources/js/components/ExampleComponent.vue"
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./ExampleComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]);
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 

@@ -12,15 +12,20 @@
 @section('twitter:title', 'Контакты компании "руд Медиум" | Как с нами связаться')
 
 @section('content')
-    <div class="container">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="{{ url('/') }}">Главная</a></li>
-
-                <li class="breadcrumb-item active" aria-current="page">Контакты</li>
-            </ol>
-        </nav>
-    </div>
+    <ul class="breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+        <li class="breadcrumb-item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+            <a href="{{ URL('/') }}" itemprop="item">
+                <span itemprop="name">Главная</span>
+            </a>
+            <meta itemprop="position" content="1">
+        </li>
+        <li class="breadcrumb-item active breadcrumb-item--active" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+            <a itemprop="item">
+                <span itemprop="name">Контакты</span>
+            </a>
+            <meta itemprop="position" content="2">
+        </li>
+    </ul>
 
 
     <div class="contacts">

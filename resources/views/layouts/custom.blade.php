@@ -42,7 +42,7 @@
     <noscript><div><img src="https://mc.yandex.ru/watch/54116212" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
 
-    
+
     <meta name="yandex-verification" content="89746e1ff306cfca" />
 
 </head>
@@ -101,14 +101,51 @@
 
             </div>
 
-            <nav class="header__nav">
-                <a href="{{ url('/beton') }}" class="header__link">Бетон</a>
-                <a href="{{ url('/rastvor') }}" class="header__link">Раствор</a>
-                <a href="{{ url('/trotuarnaya-plitka') }}" class="header__link">Тротуарная плитка</a>
-                <a href="{{ url('/calc') }}" class="header__link">Калькуляторы</a>
-                <a href="{{ url('/dostavka') }}" class="header__link">Доставка</a>
-                <a href="{{ url('/contacts') }}" class="header__link">Конткаты</a>
+
+
+            <nav class="header__nav" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+                <ul class="header__list" itemprop="about" itemscope="" itemtype="http://schema.org/ItemList">
+
+                    <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
+                        <a class="header__link" href="{{ url('/beton') }}" itemprop="url">Бетон</a>
+                        <meta itemprop="name" content="Бетон" />
+                    </li>
+
+                    <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
+                        <a class="header__link" href="{{ url('/rastvor') }}" itemprop="url">Раствор</a>
+                        <meta itemprop="name" content="Раствор" />
+                    </li>
+
+                    <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
+                        <a class="header__link" href="{{ url('/trotuarnaya-plitka') }}" itemprop="url">Тротуарная плитка</a>
+                        <meta itemprop="name" content="Тротуарная плитка" />
+                    </li>
+
+                    <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
+                        <a class="header__link" href="{{ url('/calc') }}" itemprop="url">Калькуляторы</a>
+                        <meta itemprop="name" content="Калькуляторы" />
+                    </li>
+
+                    <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
+                        <a class="header__link" href="{{ url('/dostavka') }}" itemprop="url">Доставка</a>
+                        <meta itemprop="name" content="Доставка" />
+                    </li>
+                    <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
+                        <a class="header__link" href="{{ url('/contacts') }}" itemprop="url">Контакты</a>
+                        <meta itemprop="name" content="Контакты" />
+                    </li>
+                </ul>
             </nav>
+
+
+{{--            <nav class="header__nav">--}}
+{{--                <a href="{{ url('/beton') }}" class="header__link">Бетон</a>--}}
+{{--                <a href="{{ url('/rastvor') }}" class="header__link">Раствор</a>--}}
+{{--                <a href="{{ url('/trotuarnaya-plitka') }}" class="header__link">Тротуарная плитка</a>--}}
+{{--                <a href="{{ url('/calc') }}" class="header__link">Калькуляторы</a>--}}
+{{--                <a href="{{ url('/dostavka') }}" class="header__link">Доставка</a>--}}
+{{--                <a href="{{ url('/contacts') }}" class="header__link">Конткаты</a>--}}
+{{--            </nav>--}}
 
 
         </div>
