@@ -29,7 +29,7 @@ class SendEmailController extends Controller
             'mark'      => $request->mark
         );
 
-        Mail::to('gorivanicliy@gmail.com')->send(new SendMail($data));
+        Mail::to('gorivanickiy@gmail.com')->send(new SendMail($data));
         return view('thank-you');
 
 
