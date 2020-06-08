@@ -165,6 +165,33 @@ button {
   }
 }
 
+.header__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.header__list li {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 992px) {
+  .header__list li {
+    display: block;
+  }
+}
+
+.header__list li + li {
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+  .header__list li + li {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
 .header__link {
   display: flex;
   justify-content: center;
@@ -187,17 +214,6 @@ button {
 
 .header__link:hover {
   background-color: #d4d4d4;
-}
-
-.header__link + .header__link {
-  margin-left: 10px;
-}
-
-@media only screen and (max-width: 992px) {
-  .header__link + .header__link {
-    margin-left: 0;
-    margin-top: 20px;
-  }
 }
 
 .start {
@@ -722,6 +738,14 @@ button {
 
 .active::before {
   content: "";
+}
+
+.active a {
+  font-weight: 400;
+}
+
+.active a:hover {
+  color: #474747;
 }
 
 .tovar {
