@@ -27,16 +27,17 @@
                     <a href="#hidden" class="btn btn__dark start__hidden">Подробнее о программе</a>
                 </div>
 
-                <form action="" class="start__form">
+                <form action="{{ url('sendemail/send') }}" class="start__form" method="post">
+                    {{ csrf_field() }}
                     <img class="start__img" src="{{ asset('images/hands.png') }}" alt="">
                     <label for="" class="start__label">ФИО</label>
-                    <input type="text" class="start__input" placeholder="Иванов Иван Иванович">
+                    <input name="name" type="text" class="start__input" placeholder="Иванов Иван Иванович">
                     <label for="" class="start__label">Телефон</label>
-                    <input type="text" class="start__input" placeholder="+7 999 999 99 99">
+                    <input name="tel" type="tel" class="start__input" placeholder="+7 999 999 99 99">
                     <label for="" class="start__label">Название компании</label>
-                    <input type="text" class="start__input" placeholder="Не обязательно">
+                    <input name="company" type="text" class="start__input" placeholder="Не обязательно">
                     <label for="" class="start__label">Ваш E-mail</label>
-                    <input type="text" class="start__input" placeholder="mail@example.com">
+                    <input name="email" type="email" class="start__input" placeholder="mail@example.com">
                     <button type="submit" class="start__btn">Регистрация</button>
                 </form>
             </div>
