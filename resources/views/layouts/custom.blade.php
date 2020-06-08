@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="css/site.css?<?php echo date('l jS \of F Y h:i:s A'); ?>">
+    <link rel="stylesheet" href="{{URL::asset('css/site.css')}}">
     <script src="https://kit.fontawesome.com/0af96d350a.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>@yield('title')</title>
@@ -71,13 +71,13 @@
                 @if($home == $_SERVER['REQUEST_URI'])
 
                     <img src="{{ asset('images/logo.png') }}" alt="logo" class="header__logo">
-                    <img src="{{ asset('images/logo2.jpg') }}" alt="logo" class="header__logo-min">
+{{--                    <img src="{{ asset('images/logo2.jpg') }}" alt="logo" class="header__logo-min">--}}
 
 
                 @else
                     <a href="{{ URL('/') }}">
                         <img src="{{ asset('images/logo.png') }}" alt="" class="header__logo">
-                        <img src="{{ asset('images/logo2.jpg') }}" alt="logo" class="header__logo-min">
+{{--                        <img src="{{ asset('images/logo2.jpg') }}" alt="logo" class="header__logo-min">--}}
                     </a>
                 @endif
 
