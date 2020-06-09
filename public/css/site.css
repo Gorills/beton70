@@ -1413,3 +1413,28 @@ button {
   margin-bottom: 40px;
 }
 
+.gagarin {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 0;
+  background-color: #000000;
+  color: #fff;
+}
+
+.gagarin__inner {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.gagarin__link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  transition: all 0.5s ease;
+}
+
+.gagarin__link:hover {
+  color: #ff6801;
+}
+

@@ -311,6 +311,17 @@
     </div>
 </footer>
 
+<div class="gagarin">
+    <div class="container">
+        <div class="gagarin__inner">
+            <p class="gagarin__text"><a target="_blank" href="https://gagarin-digital.ru/razrabotka-sajtov" class="gagarin__link">Разработка сайта</a> веб-студия <a target="_blank" href="https://gagarin-digital.ru/" class="gagarin__link">Gagarin-digital.ru</a></p>
+        </div>
+    </div>
+</div>
+
+
+
+
 <script type="application/ld+json"> {
     "@context": "http://schema.org",
     "@type": "Organization",
