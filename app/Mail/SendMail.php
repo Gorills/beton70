@@ -31,6 +31,6 @@ class SendMail extends Mailable
     public function build()
     {
 //        return $this->view('view.name');
-        return $this->from('zakaz@beton70.com')->subject('Заявка с сайта')->view('mail')->with('data', $this->data);
+        return $this->from('zakaz@beton70.com')->subject('Заявка с сайта Beton70.com')->view('mail')->with('data', $this->data);
     }
 }

@@ -196,7 +196,7 @@
         </a>
 
     @else
-        <a href="tel:83822500200" class="whatsapp-btn__link">
+        <a href="https://api.whatsapp.com/send?phone=79138200200&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D0%BF%D0%BE%20%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4%D1%83..." class="whatsapp-btn__link">
             <i class="whatsapp-btn__icon fab fa-whatsapp"></i>
         </a>
 
@@ -264,9 +264,9 @@
                 <a href="tel:83822500200" class="footer__phone">8 (3822) 500-200</a>
                 <a href="mailto:beton70com@yandex.ru" class="footer__mail">beton70com@yandex.ru</a>
                 <div class="footer__social">
-                    <a href="#"><i class="footer__icon fab fa-vk"></i></a>
+                    <a target="_blank" href="https://vk.com/beton70com"><i class="footer__icon fab fa-vk"></i></a>
 
-                    <a href="#"><i class="footer__icon fab fa-instagram"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/rudmedium/"><i class="footer__icon fab fa-instagram"></i></a>
 
                 </div>
                 <p class="footer__text">ООО «РудМедиум»,
