@@ -46,22 +46,33 @@ $(".start__hidden").click(function(e) {
 })
 
 
-$('#num').animate({ num: 18 - 3/* - начало */ }, {
-    duration: 3000,
-    step: function (num){
-        this.innerHTML = (num + 3).toFixed(0)
-    }
-});
-$('#num2').animate({ num: 108325 - 3/* - начало */ }, {
-    duration: 5000,
-    step: function (num){
-        this.innerHTML = (num + 3).toFixed(0)
+const target = $('.about');
+const targetPos = target.offset().top;
+const winHeight = $(window).height();
+const scrollToElem = targetPos - winHeight;
+$(window).scroll(function(){
+    const winScrollTop = $(this).scrollTop();
+    if(winScrollTop > scrollToElem){
+        $('#num').animate({ num: 18 - 3/* - начало */ }, {
+            duration: 3000,
+            step: function (num){
+                this.innerHTML = (num + 3).toFixed(0)
+            }
+        });
+        $('#num2').animate({ num: 108325 - 3/* - начало */ }, {
+            duration: 5000,
+            step: function (num){
+                this.innerHTML = (num + 3).toFixed(0)
+            }
+        });
+
+        $('#num3').animate({ num: 31632 - 3/* - начало */ }, {
+            duration: 5000,
+            step: function (num){
+                this.innerHTML = (num + 3).toFixed(0)
+            }
+        });
     }
 });
 
-$('#num3').animate({ num: 31632 - 3/* - начало */ }, {
-    duration: 5000,
-    step: function (num){
-        this.innerHTML = (num + 3).toFixed(0)
-    }
-});
+
