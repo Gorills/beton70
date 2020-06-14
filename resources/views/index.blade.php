@@ -13,6 +13,27 @@
 
 @section('content')
 
+
+    <section class="banner">
+        <div class="container">
+            <div class="banner__inner">
+                <h2 class="banner__title">
+                Купить бетон и раствор в Томске с доставкой
+                </h2>
+                <div class="banner__btn-wrap">
+                    <a href="{{ url('/beton') }}" class="banner__btn btn btn__accent">Бетон</a>
+                    <a href="{{ url('/rastvor') }}" class="banner__btn btn btn__accent">Раствор</a>
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <img src="{{ URL::asset('images/bg2.jpg') }}" alt="бетонный завод Руд Медиум" class="banner__img">
+    </section>
+
     <div class="start">
         <div class="container">
             <div class="start__inner">

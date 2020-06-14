@@ -132,34 +132,44 @@ $(".start__hidden").click(function (e) {
   // e.preventDefault();
   $('.hidden').toggleClass('hidden--active');
 });
-$('#num').animate({
-  num: 18 - 3
-  /* - начало */
+var target = $('.about');
+var targetPos = target.offset().top;
+var winHeight = $(window).height();
+var scrollToElem = targetPos - winHeight;
+$(window).scroll(function () {
+  var winScrollTop = $(this).scrollTop();
 
-}, {
-  duration: 3000,
-  step: function step(num) {
-    this.innerHTML = (num + 3).toFixed(0);
-  }
-});
-$('#num2').animate({
-  num: 108325 - 3
-  /* - начало */
+  if (winScrollTop > scrollToElem) {
+    $('#num').animate({
+      num: 18 - 3
+      /* - начало */
 
-}, {
-  duration: 5000,
-  step: function step(num) {
-    this.innerHTML = (num + 3).toFixed(0);
-  }
-});
-$('#num3').animate({
-  num: 31632 - 3
-  /* - начало */
+    }, {
+      duration: 3000,
+      step: function step(num) {
+        this.innerHTML = (num + 3).toFixed(0);
+      }
+    });
+    $('#num2').animate({
+      num: 108325 - 3
+      /* - начало */
 
-}, {
-  duration: 5000,
-  step: function step(num) {
-    this.innerHTML = (num + 3).toFixed(0);
+    }, {
+      duration: 5000,
+      step: function step(num) {
+        this.innerHTML = (num + 3).toFixed(0);
+      }
+    });
+    $('#num3').animate({
+      num: 31632 - 3
+      /* - начало */
+
+    }, {
+      duration: 5000,
+      step: function step(num) {
+        this.innerHTML = (num + 3).toFixed(0);
+      }
+    });
   }
 });
 

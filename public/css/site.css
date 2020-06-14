@@ -1438,3 +1438,74 @@ button {
   color: #ff6801;
 }
 
+.banner {
+  width: 100%;
+  margin: 0 auto;
+  height: 70vh;
+  min-height: 550px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.banner__inner {
+  position: relative;
+  z-index: 2;
+  padding: 40px;
+  width: 100%;
+  max-width: 500px;
+  background-color: rgba(51, 51, 51, 0.7);
+}
+
+.banner__title {
+  font-size: 50px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 480px) {
+  .banner__title {
+    font-size: 32px;
+    text-align: center;
+  }
+}
+
+.banner__btn-wrap {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.banner__btn {
+  color: #fff;
+}
+
+.banner__btn:hover {
+  color: #474747;
+}
+
+.banner__btn + .banner__btn {
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  .banner__btn + .banner__btn {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+.banner__img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 1;
+}
+
