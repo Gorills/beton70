@@ -340,7 +340,7 @@
       "addressLocality": "Томск",
       "addressRegion": "Томская область",
       "postalCode": "634021",
-      "streetAddress": "ул. Шевченко, 49б ст 6"
+      "streetAddress": "ул. Шевченко, 49БС6"
     },
     "telephone": "+73822500200"
   }
