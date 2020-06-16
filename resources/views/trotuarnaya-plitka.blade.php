@@ -45,7 +45,7 @@
 
                         <i class="fas fa-percent sale__icon"></i>
                         <div class="sale__img-wrapper">
-                            <img src="{{ URL::asset('images/plitka/1.webp') }}" alt="" class="sale__img">
+                            <img src="{{ URL::asset('images/plitka/1.webp') }}" alt="Тротуарная плитка Калифорния" class="sale__img">
                         </div>
                         <h3 class="sale__item-title">Тротуарная плитка "Калифорния"</h3>
                         <p class="sale__description">Распродажа тротуарной плитки "Калифорния". Плитка с небольшими дефектами по цвету.</p>
@@ -57,7 +57,7 @@
 
                         <i class="fas fa-percent sale__icon"></i>
                         <div class="sale__img-wrapper">
-                            <img src="{{ URL::asset('images/plitka/2.webp') }}" alt="" class="sale__img">
+                            <img src="{{ URL::asset('images/plitka/2.webp') }}" alt="Тротуарная плитка 8 кирпичей" class="sale__img">
                         </div>
                         <h3 class="sale__item-title">Тротуарная плитка "8 кирпичей"</h3>
                         <p class="sale__description">Без дефектов. Распродажа больших объемов со склада.</p>
@@ -69,7 +69,7 @@
 
                         <i class="fas fa-percent sale__icon"></i>
                         <div class="sale__img-wrapper">
-                            <img src="{{ URL::asset('images/plitka/3.webp') }}" alt="" class="sale__img">
+                            <img src="{{ URL::asset('images/plitka/3.webp') }}" alt="Тучка красная" class="sale__img">
                         </div>
                         <h3 class="sale__item-title">Тучка красная</h3>
                         <p class="sale__description">Без дефектов. Распродажа больших объемов со склада.</p>
@@ -81,7 +81,7 @@
 
                         <i class="fas fa-percent sale__icon"></i>
                         <div class="sale__img-wrapper">
-                            <img src="{{ URL::asset('images/plitka/4.webp') }}" alt="" class="sale__img">
+                            <img src="{{ URL::asset('images/plitka/4.webp') }}" alt="Тучка серая" class="sale__img">
                         </div>
                         <h3 class="sale__item-title">Тучка серая</h3>
                         <p class="sale__description">Без дефектов. Распродажа больших объемов со склада.</p>
@@ -94,7 +94,7 @@
 
                         <i class="fas fa-percent sale__icon"></i>
                         <div class="sale__img-wrapper">
-                            <img src="{{ URL::asset('images/plitka/5.webp') }}" alt="" class="sale__img">
+                            <img src="{{ URL::asset('images/plitka/5.webp') }}" alt="Тучка желтая" class="sale__img">
                         </div>
                         <h3 class="sale__item-title">Тучка желтая</h3>
                         <p class="sale__description">Без дефектов. Распродажа больших объемов со склада.</p>
@@ -106,7 +106,7 @@
                     <div class="sale__item">
                         <i class="fas fa-percent sale__icon"></i>
                         <div class="sale__img-wrapper">
-                            <img src="{{ URL::asset('images/plitka/6.webp') }}" alt="" class="sale__img">
+                            <img src="{{ URL::asset('images/plitka/6.webp') }}" alt="Водосток красный" class="sale__img">
                         </div>
                         <h3 class="sale__item-title">Водосток красный</h3>
                         <p class="sale__description">Без дефектов. Распродажа больших объемов со склада.</p>
@@ -120,7 +120,7 @@
 
                         <i class="fas fa-percent sale__icon"></i>
                         <div class="sale__img-wrapper">
-                            <img src="{{ URL::asset('images/plitka/7.webp') }}" alt="" class="sale__img">
+                            <img src="{{ URL::asset('images/plitka/7.webp') }}" alt="Водосток коричневый" class="sale__img">
                         </div>
                         <h3 class="sale__item-title">Водосток коричневый</h3>
                         <p class="sale__description">Без дефектов. Распродажа больших объемов со склада.</p>
@@ -133,7 +133,7 @@
 
                         <i class="fas fa-percent sale__icon"></i>
                         <div class="sale__img-wrapper">
-                            <img src="{{ URL::asset('images/plitka/8.webp') }}" alt="" class="sale__img">
+                            <img src="{{ URL::asset('images/plitka/8.webp') }}" alt="Водосток серый" class="sale__img">
                         </div>
                         <h3 class="sale__item-title">Водосток серый</h3>
                         <p class="sale__description">Без дефектов. Распродажа больших объемов со склада.</p>
@@ -146,7 +146,7 @@
 
                         <i class="fas fa-percent sale__icon"></i>
                         <div class="sale__img-wrapper">
-                            <img src="{{ URL::asset('images/plitka/9.webp') }}" alt="" class="sale__img">
+                            <img src="{{ URL::asset('images/plitka/9.webp') }}" alt="Калейдоскоп желтая" class="sale__img">
                         </div>
                         <h3 class="sale__item-title">Калейдоскоп желтая</h3>
                         <p class="sale__description">Без дефектов. Распродажа больших объемов со склада.</p>
@@ -159,7 +159,7 @@
 
                     <i class="fas fa-percent sale__icon"></i>
                     <div class="sale__img-wrapper">
-                        <img src="{{ URL::asset('images/plitka/10.webp') }}" alt="" class="sale__img">
+                        <img src="{{ URL::asset('images/plitka/10.webp') }}" alt="Поребрик коричневый" class="sale__img">
                     </div>
                     <h3 class="sale__item-title">Поребрик коричневый</h3>
                     <p class="sale__description">Без дефектов. Распродажа больших объемов со склада.</p>
