@@ -1527,6 +1527,28 @@ button {
 
 .sale__row {
   text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 992px) {
+  .sale__row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sale__row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .sale__row {
+    grid-template-columns: 1fr;
+  }
 }
 
 .sale__item {
@@ -1538,13 +1560,14 @@ button {
   min-width: 200px;
   position: relative;
   min-height: 467px;
-  margin: 20px 0 20px 20px;
+  margin: 0 auto;
 }
 
 .sale__icon {
   position: absolute;
   right: 15px;
   top: 15px;
+  z-index: 2;
   color: red;
   font-size: 30px;
 }
@@ -1571,5 +1594,14 @@ button {
 
 .sale__price {
   margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  #enscart_wrapper {
+    top: 20px;
+    bottom: auto;
+    right: auto;
+    left: 20px;
+  }
 }
 
