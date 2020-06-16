@@ -57,86 +57,115 @@
 
                         <i class="fas fa-percent sale__icon"></i>
                         <div class="sale__img-wrapper">
-                            <img src="{{ URL::asset('images/plitka/1.webp') }}" alt="" class="sale__img">
+                            <img src="{{ URL::asset('images/plitka/2.webp') }}" alt="" class="sale__img">
                         </div>
-                        <h3 class="sale__item-title">Тротуарная плитка "Калифорния"</h3>
-                        <p class="sale__description">Распродажа тротуарной плитки "Калифорния". Плитка с небольшими дефектами по цвету.</p>
+                        <h3 class="sale__item-title">Тротуарная плитка "8 кирпичей"</h3>
+                        <p class="sale__description">Без дефектов. Распродажа больших объемов со склада.</p>
 
                         <p class="sale__price">250р</p>
-                        <a class="btn-ens-action btn-ens-style" data-rel="7809d6ce185923">В корзину</a>
+                        <a class="btn-ens-action btn-ens-style" data-rel="7809d6ce185924">В корзину</a>
                     </div>
                     <div class="sale__item">
 
                         <i class="fas fa-percent sale__icon"></i>
                         <div class="sale__img-wrapper">
-                            <img src="{{ URL::asset('images/plitka/1.webp') }}" alt="" class="sale__img">
+                            <img src="{{ URL::asset('images/plitka/3.webp') }}" alt="" class="sale__img">
                         </div>
-                        <h3 class="sale__item-title">Тротуарная плитка "Калифорния"</h3>
-                        <p class="sale__description">Распродажа тротуарной плитки "Калифорния". Плитка с небольшими дефектами по цвету.</p>
+                        <h3 class="sale__item-title">Тучка красная</h3>
+                        <p class="sale__description">Без дефектов. Распродажа больших объемов со склада.</p>
 
                         <p class="sale__price">250р</p>
-                        <a class="btn-ens-action btn-ens-style" data-rel="7809d6ce185923">В корзину</a>
+                        <a class="btn-ens-action btn-ens-style" data-rel="7809d6ce185925">В корзину</a>
                     </div>
                     <div class="sale__item">
 
                         <i class="fas fa-percent sale__icon"></i>
                         <div class="sale__img-wrapper">
-                            <img src="{{ URL::asset('images/plitka/1.webp') }}" alt="" class="sale__img">
+                            <img src="{{ URL::asset('images/plitka/4.webp') }}" alt="" class="sale__img">
                         </div>
-                        <h3 class="sale__item-title">Тротуарная плитка "Калифорния"</h3>
-                        <p class="sale__description">Распродажа тротуарной плитки "Калифорния". Плитка с небольшими дефектами по цвету.</p>
+                        <h3 class="sale__item-title">Тучка серая</h3>
+                        <p class="sale__description">Без дефектов. Распродажа больших объемов со склада.</p>
 
                         <p class="sale__price">250р</p>
-                        <a class="btn-ens-action btn-ens-style" data-rel="7809d6ce185923">В корзину</a>
+                        <a class="btn-ens-action btn-ens-style" data-rel="7809d6ce185926">В корзину</a>
                     </div>
                     <div class="sale__item">
 
                         <i class="fas fa-percent sale__icon"></i>
                         <div class="sale__img-wrapper">
-                            <img src="{{ URL::asset('images/plitka/1.webp') }}" alt="" class="sale__img">
+                            <img src="{{ URL::asset('images/plitka/5.webp') }}" alt="" class="sale__img">
                         </div>
-                        <h3 class="sale__item-title">Тротуарная плитка "Калифорния"</h3>
-                        <p class="sale__description">Распродажа тротуарной плитки "Калифорния". Плитка с небольшими дефектами по цвету.</p>
+                        <h3 class="sale__item-title">Тучка желтая</h3>
+                        <p class="sale__description">Без дефектов. Распродажа больших объемов со склада.</p>
 
                         <p class="sale__price">250р</p>
-                        <a class="btn-ens-action btn-ens-style" data-rel="7809d6ce185923">В корзину</a>
+                        <a class="btn-ens-action btn-ens-style" data-rel="7809d6ce185927">В корзину</a>
                     </div>
+
+
+                        <i class="fas fa-percent sale__icon"></i>
+                        <div class="sale__img-wrapper">
+                            <img src="{{ URL::asset('images/plitka/7.webp') }}" alt="" class="sale__img">
+                        </div>
+                        <h3 class="sale__item-title">Водосток красный</h3>
+                    <p class="sale__description">Без дефектов. Распродажа больших объемов со склада.</p>
+
+                        <p class="sale__price">250р</p>
+                        <a class="btn-ens-action btn-ens-style" data-rel="7809d6ce185929">В корзину</a>
+                    </div>
+
+
                     <div class="sale__item">
 
                         <i class="fas fa-percent sale__icon"></i>
                         <div class="sale__img-wrapper">
-                            <img src="{{ URL::asset('images/plitka/1.webp') }}" alt="" class="sale__img">
+                            <img src="{{ URL::asset('images/plitka/8.webp') }}" alt="" class="sale__img">
                         </div>
-                        <h3 class="sale__item-title">Тротуарная плитка "Калифорния"</h3>
-                        <p class="sale__description">Распродажа тротуарной плитки "Калифорния". Плитка с небольшими дефектами по цвету.</p>
+                        <h3 class="sale__item-title">Водосток коричневый</h3>
+                        <p class="sale__description">Без дефектов. Распродажа больших объемов со склада.</p>
 
                         <p class="sale__price">250р</p>
-                        <a class="btn-ens-action btn-ens-style" data-rel="7809d6ce185923">В корзину</a>
+                        <a class="btn-ens-action btn-ens-style" data-rel="7809d6ce185930">В корзину</a>
                     </div>
+
                     <div class="sale__item">
 
                         <i class="fas fa-percent sale__icon"></i>
                         <div class="sale__img-wrapper">
-                            <img src="{{ URL::asset('images/plitka/1.webp') }}" alt="" class="sale__img">
+                            <img src="{{ URL::asset('images/plitka/9.webp') }}" alt="" class="sale__img">
                         </div>
-                        <h3 class="sale__item-title">Тротуарная плитка "Калифорния"</h3>
-                        <p class="sale__description">Распродажа тротуарной плитки "Калифорния". Плитка с небольшими дефектами по цвету.</p>
+                        <h3 class="sale__item-title">Водосток серый</h3>
+                        <p class="sale__description">Без дефектов. Распродажа больших объемов со склада.</p>
 
                         <p class="sale__price">250р</p>
-                        <a class="btn-ens-action btn-ens-style" data-rel="7809d6ce185923">В корзину</a>
+                        <a class="btn-ens-action btn-ens-style" data-rel="7809d6ce185931">В корзину</a>
                     </div>
+
                     <div class="sale__item">
 
                         <i class="fas fa-percent sale__icon"></i>
                         <div class="sale__img-wrapper">
-                            <img src="{{ URL::asset('images/plitka/1.webp') }}" alt="" class="sale__img">
+                            <img src="{{ URL::asset('images/plitka/10.webp') }}" alt="" class="sale__img">
                         </div>
-                        <h3 class="sale__item-title">Тротуарная плитка "Калифорния"</h3>
-                        <p class="sale__description">Распродажа тротуарной плитки "Калифорния". Плитка с небольшими дефектами по цвету.</p>
+                        <h3 class="sale__item-title">Калейдоскоп желтая</h3>
+                        <p class="sale__description">Без дефектов. Распродажа больших объемов со склада.</p>
 
                         <p class="sale__price">250р</p>
-                        <a class="btn-ens-action btn-ens-style" data-rel="7809d6ce185923">В корзину</a>
+                        <a class="btn-ens-action btn-ens-style" data-rel="7809d6ce185932">В корзину</a>
                     </div>
+
+                <div class="sale__item">
+
+                    <i class="fas fa-percent sale__icon"></i>
+                    <div class="sale__img-wrapper">
+                        <img src="{{ URL::asset('images/plitka/10.webp') }}" alt="" class="sale__img">
+                    </div>
+                    <h3 class="sale__item-title">Поребрик коричневый</h3>
+                    <p class="sale__description">Без дефектов. Распродажа больших объемов со склада.</p>
+
+                    <p class="sale__price">250р</p>
+                    <a class="btn-ens-action btn-ens-style" data-rel="7809d6ce185934">В корзину</a>
+                </div>
 
                 </div>
 
@@ -150,6 +179,6 @@
 
 
 
-    <a class="btn-ens-action btn-ens-style" data-rel="7809d6ce185923">В корзину</a>
+   
 
 @endsection
