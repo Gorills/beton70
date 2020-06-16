@@ -193,7 +193,7 @@
 
     @if($trot == $_SERVER['REQUEST_URI'])
 
-        <a href="tel:83822340240" class="whatsapp-btn__link">
+        <a href="https://wa.me/79832340240" class="whatsapp-btn__link">
             <i class="whatsapp-btn__icon fab fa-whatsapp"></i>
         </a>
 
