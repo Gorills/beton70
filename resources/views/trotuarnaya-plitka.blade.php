@@ -176,7 +176,36 @@
 
 
 
+    <section class="optimize-plitka">
+        <div class="container">
+            <div class="optimize-plitka__inner">
+                <h1 class="optimize-plitka__title">Купить тротуарную плитку с доставкой по Томску и области</h1>
+                <p class="optimize-plitka__text-top">Тротуарная плитка от производителя. Собственное производство, отличное качество, низкие цены. Скидки от объема и для постоянных клиентов.</p>
 
+                <div class="optimize-plitka__row">
+                    <img src="{{ URL::asset('images/plitka/optimize.jpg') }}" alt="тротуарная плитка томск" class="optimize-plitka__img">
+
+
+                    <div class="optimize-plitka__text-block">
+                        <h3 class="optimize-plitka__subtitle">Выбор тротуарной плитки</h3>
+                        <p class="optimize-plitka__text">Наш завод по производству тротуарной плитки предлагает огромное количество вариантов товара в наличии и под заказ.</p>
+                        <p class="optimize-plitka__text">Образцы тротуарной плитки можно посмотреть вживую по адресу <b>ул.Энергетическая 3а</b></p>
+                        <p class="optimize-plitka__text">На нашем сайте можно оформить заказ тротуарной плитки как в обычном интернет магазине, положив необходимый товар в корзину.</p>
+                        <p class="optimize-plitka__text">Остались вопросы? Звоните:</p>
+                        <p class="optimize-plitka__text"><a href="tel:83822340240" class="optimize-plitka__link">340 - 240</a></p>
+                        <p class="optimize-plitka__text">Посмотреть каталог тротуарной плитки можно нажав на кнопку ниже:</p>
+                        <a href="#" class="optimize-plitka__btn btn btn__accent">Перейти</a>
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
 
 
 

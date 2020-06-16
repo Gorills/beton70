@@ -1605,3 +1605,77 @@ button {
   }
 }
 
+.optimize-plitka {
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.optimize-plitka__inner {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.optimize-plitka__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.optimize-plitka__text-top {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.optimize-plitka__row {
+  display: flex;
+}
+
+@media only screen and (max-width: 992px) {
+  .optimize-plitka__row {
+    flex-direction: column;
+  }
+}
+
+.optimize-plitka__img {
+  margin-right: 20px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .optimize-plitka__img {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.optimize-plitka__text-block {
+  text-align: center;
+}
+
+.optimize-plitka__subtitle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.optimize-plitka__text {
+  text-align: start;
+}
+
+.optimize-plitka__text + .optimize-plitka__text {
+  margin-top: 20px;
+}
+
+.optimize-plitka__link {
+  text-align: center;
+  text-decoration: none;
+  color: #ff6801;
+  font-weight: 700;
+  font-size: 25px;
+  display: block;
+  margin: 0 auto;
+}
+
+.optimize-plitka__btn {
+  margin: 20px auto 0;
+}
+
